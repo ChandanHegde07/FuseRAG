@@ -1,0 +1,20 @@
+# FastAPI for building the API
+fastapi==0.95.1
+
+# Uvicorn for serving FastAPI (ASGI server)
+uvicorn==0.22.0
+
+# For working with vector embeddings (e.g., sentence embeddings)
+sentence-transformers==2.2.2
+
+# FAISS for efficient similarity search with vector embeddings
+faiss-cpu==1.7.3
+
+# To handle data validation in FastAPI
+pydantic==1.10.7
+
+# Optionally, you can add logging or database connectors (like SQLAlchemy) if needed:
+sqlalchemy==2.0.10
+
+# Optionally for GPU support (if you're using GPU with FAISS, you can install faiss-gpu instead)
+faiss-gpu==1.7.3
